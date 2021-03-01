@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Kalyn Mal Calculator</title>
+    <script type = "text/javascript" src = "script.js"></script>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+
+<body>
+    <div class = "form-basic">
+        <div class = "main-content">
+
+                <h1>Kalyn Mal Calculator</h1>
+                <div align = "left">
+
+                <label>
+                <label>First Name</label>
+                <input id = "firstname" type="text">
+                <hr>
+
+                <label>Starting bid</label>
+                <input id = "startingbid" type="number">
+                <hr>
+
+                <span>Bride's education</span></label>
+                <select id = "education">
+                <option value = 1.5>Undergraduate degree</option>
+                <option value = 1.2>College degree</option>
+                <option value = 1.05>High school degree</option>
+                <option value = 0.9>Middle school degree</option>
+                </select>
+                <br><br>
+
+                <label>
+                <span>Family networth</span></label>
+                <select id = "family">
+                <option value = 2>More than 100,000$</option>
+                <option value = 1.5>Between 50,000$ and 100,000$</option>
+                <option value = 1.2>Less than 50,000$</option>
+                </select>
+                <br><br><br>
+
+                <span>Bride's skills</span><br>
+                <input class = "skills" type = "checkbox" value = 100>Playing on dombra<br>
+                <input class = "skills" type = "checkbox" value = 200>Well Cook<br>
+                <input class = "skills" type = "checkbox" value = 150>Easygoing behaviour<br>
+                <input class = "skills" type = "checkbox" value = 100>Sings well<br>
+                <br>
+
+                <p align = "left">Bride's age</p>
+                <input id = "age0" type = "radio" name = "age" value = 1.5>Between 18 - 23<br>
+                <input id = "age1" type = "radio" name = "age" value = 1.2>Between 24 - 27<br>
+                <input id = "age2" type = "radio" name = "age" value=  0.95>28+
+                <br><br>
+
+                <span>Bride's reputation</span><br>
+                <input id = "rep0" type = "checkbox" value = 0.85>Gossips about her parent's attitude<br>
+                <input id = "rep1" type = "checkbox" value = 0.9>Gossips about her character<br>
+                <input id = "rep2" type = "checkbox" value = 200>General gossips around her person<br>
+                <br>
+
+                <label>Love letter</label><br>
+                <textarea id = "love_letter"></textarea>
+
+                <div id = "result"></div>
+                <button onclick = "calculator()">Calculate</button><br>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
